@@ -7,7 +7,6 @@ from datetime import datetime, timedelta, date
 import mysql.connector
 
 app = Flask(__name__)
-app.config['JWT_SECRET_KEY'] = 'tu_clave_secreta'  # Cambia esta clave a una más segura
 
 
 CORS(app, origins=["*"])
