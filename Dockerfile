@@ -14,4 +14,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 EXPOSE 8080
 
 # Configurar la entrada para ejecutar la aplicación
-CMD ["python", "app.py"]
+CMD ["python", "main.py"]
