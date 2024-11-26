@@ -429,5 +429,5 @@ def actualizar_estado_evento(event_id):
     return jsonify({"message": "Estado actualizado y notificación creada"}), 200
 
 if __name__ == '__main__':
-    port = int(os.environ.get('PORT', 5000))  # Toma el puerto de entorno, usa 5000 como predeterminado
+    port = int(os.environ.get('PORT', 8080))  # Toma el puerto de entorno, usa 5000 como predeterminado
     app.run(host='0.0.0.0', port=port)
