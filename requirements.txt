@@ -1,6 +1,6 @@
 Flask==2.2.5
-Flask-CORS==3.0.10
-flask-jwt-extended==4.4.0
-bcrypt==4.0.1
-mysql-connector-python==8.0.33
-Werkzeug==2.0.0
+Flask-CORS==5.0.0
+flask-jwt-extended==4.6.0
+bcrypt== 3.0.3
+mysql-connector-python==9.1.0
+Werkzeug== 3.1.1
