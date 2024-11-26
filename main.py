@@ -6,7 +6,7 @@ from flask_jwt_extended import JWTManager, create_access_token, get_jwt_identity
 from datetime import datetime, timedelta, date
 import mysql.connector
 
-app = Flask(_name_)
+app = Flask(__name__)
 app.config['JWT_SECRET_KEY'] = 'tu_clave_secreta'  # Cambia esta clave a una más segura
 
 
