@@ -1,6 +1,6 @@
 Flask==2.2.5
 Flask-CORS==5.0.0
 flask-jwt-extended==4.6.0
-bcrypt== 3.0.3
+bcrypt== 3.2.2
 mysql-connector-python==9.1.0
 Werkzeug== 3.1.1
